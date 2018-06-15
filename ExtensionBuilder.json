@@ -1,0 +1,157 @@
+{
+    "modules": [
+        {
+            "config": {
+                "position": [
+                    81,
+                    64
+                ]
+            },
+            "name": "New Model Object",
+            "value": {
+                "actionGroup": {
+                    "_default0_list": false,
+                    "_default1_show": false,
+                    "_default2_new_create": false,
+                    "_default3_edit_update": false,
+                    "_default4_delete": false,
+                    "customActions": []
+                },
+                "name": "Policy",
+                "objectsettings": {
+                    "addDeletedField": true,
+                    "addHiddenField": true,
+                    "addStarttimeEndtimeFields": false,
+                    "aggregateRoot": true,
+                    "categorizable": false,
+                    "description": "Polica",
+                    "mapToTable": "",
+                    "parentClass": "",
+                    "sorting": false,
+                    "type": "Entity",
+                    "uid": "189264815805"
+                },
+                "propertyGroup": {
+                    "properties": [
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "Domain Model Object",
+                            "propertyIsExcludeField": true,
+                            "propertyIsRequired": true,
+                            "propertyName": "domainModelObject",
+                            "propertyType": "String",
+                            "uid": "888363071504"
+                        }
+                    ]
+                },
+                "relationGroup": {
+                    "relations": [
+                        {
+                            "foreignRelationClass": "\\TYPO3\\CMS\\Extbase\\Domain\\Model\\FrontendUser",
+                            "lazyLoading": false,
+                            "propertyIsExcludeField": true,
+                            "relationDescription": "readuser",
+                            "relationName": "readuser",
+                            "relationType": "zeroToMany",
+                            "relationWire": "",
+                            "renderType": "selectSingle",
+                            "uid": "1184456761532"
+                        },
+                        {
+                            "foreignRelationClass": "",
+                            "lazyLoading": false,
+                            "propertyIsExcludeField": true,
+                            "relationDescription": "",
+                            "relationName": "readgroup",
+                            "relationType": "zeroToOne",
+                            "relationWire": "",
+                            "renderType": "selectMultipleSideBySide",
+                            "uid": "366195835491"
+                        },
+                        {
+                            "foreignRelationClass": "",
+                            "lazyLoading": false,
+                            "propertyIsExcludeField": true,
+                            "relationDescription": "",
+                            "relationName": "writeuser",
+                            "relationType": "zeroToOne",
+                            "relationWire": "",
+                            "renderType": "selectMultipleSideBySide",
+                            "uid": "880320640293"
+                        },
+                        {
+                            "foreignRelationClass": "",
+                            "lazyLoading": false,
+                            "propertyIsExcludeField": true,
+                            "relationDescription": "",
+                            "relationName": "writegroup",
+                            "relationType": "zeroToOne",
+                            "relationWire": "",
+                            "renderType": "selectMultipleSideBySide",
+                            "uid": "282767572454"
+                        },
+                        {
+                            "foreignRelationClass": "",
+                            "lazyLoading": false,
+                            "propertyIsExcludeField": true,
+                            "relationDescription": "",
+                            "relationName": "deleteuser",
+                            "relationType": "zeroToOne",
+                            "relationWire": "",
+                            "renderType": "selectMultipleSideBySide",
+                            "uid": "144511345858"
+                        },
+                        {
+                            "foreignRelationClass": "",
+                            "lazyLoading": false,
+                            "propertyIsExcludeField": true,
+                            "relationDescription": "",
+                            "relationName": "deletegroup",
+                            "relationType": "zeroToOne",
+                            "relationWire": "",
+                            "renderType": "selectMultipleSideBySide",
+                            "uid": "1352987063279"
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "properties": {
+        "backendModules": [],
+        "description": "Manage access rights for extbase objects",
+        "emConf": {
+            "category": "plugin",
+            "custom_category": "",
+            "dependsOn": "typo3 => 7.6.0-8.9.99\n",
+            "disableLocalization": false,
+            "disableVersioning": false,
+            "skipGenerateDocumentationTemplate": false,
+            "sourceLanguage": "en",
+            "state": "alpha",
+            "targetVersion": "8.6.0-8.6.99",
+            "version": "8.6.0"
+        },
+        "extensionKey": "accessmanager",
+        "name": "accessManager",
+        "originalExtensionKey": "",
+        "originalVendorName": "",
+        "persons": [
+            {
+                "company": "",
+                "email": "cb@lustige-informatik.at",
+                "name": "Christoph Balogh",
+                "role": "Developer"
+            }
+        ],
+        "plugins": [],
+        "vendorName": "CGB"
+    },
+    "wires": [],
+    "log": {
+        "last_modified": "2017-05-01 04:26",
+        "extension_builder_version": "8.6.0",
+        "be_user": " (1)"
+    }
+}

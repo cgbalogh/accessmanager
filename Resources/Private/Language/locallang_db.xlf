@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2017-05-02T23:04:28Z" product-name="accessmanager">
+		<header/>
+		<body>
+			<trans-unit id="tx_accessmanager_domain_model_policy">
+				<source>Policy</source>
+			</trans-unit>
+			<trans-unit id="tx_accessmanager_domain_model_policy.domain_model_object">
+				<source>Domain Model Object</source>
+			</trans-unit>
+			<trans-unit id="tx_accessmanager_domain_model_policy.permissions">
+				<source>Permissions</source>
+			</trans-unit>
+			<trans-unit id="tx_accessmanager_domain_model_policy.readuser">
+				<source>Readuser</source>
+			</trans-unit>
+			<trans-unit id="tx_accessmanager_domain_model_policy.readgroup">
+				<source>Readgroup</source>
+			</trans-unit>
+			<trans-unit id="tx_accessmanager_domain_model_policy.writeuser">
+				<source>Writeuser</source>
+			</trans-unit>
+			<trans-unit id="tx_accessmanager_domain_model_policy.writegroup">
+				<source>Writegroup</source>
+			</trans-unit>
+			<trans-unit id="tx_accessmanager_domain_model_policy.deleteuser">
+				<source>Deleteuser</source>
+			</trans-unit>
+			<trans-unit id="tx_accessmanager_domain_model_policy.deletegroup">
+				<source>Deletegroup</source>
+			</trans-unit>
+			<trans-unit id="tx_accessmanager_domain_model_policy.createuser">
+				<source>Createuser</source>
+			</trans-unit>
+			<trans-unit id="tx_accessmanager_domain_model_policy.creategroup">
+				<source>Creategroup</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

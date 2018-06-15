@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2017-05-02T23:04:28Z" product-name="accessmanager">
+		<header/>
+		<body>
+			<trans-unit id="domain_model_object.description">
+				<source>Domain Model Object</source>
+			</trans-unit>
+			<trans-unit id="permissions.description">
+				<source>Default Permissions</source>
+			</trans-unit>
+			<trans-unit id="readuser.description">
+				<source>Read Access User</source>
+			</trans-unit>
+			<trans-unit id="readgroup.description">
+				<source>Read Access Group</source>
+			</trans-unit>
+			<trans-unit id="writeuser.description">
+				<source>Write Access User</source>
+			</trans-unit>
+			<trans-unit id="writegroup.description">
+				<source>Write Access Group</source>
+			</trans-unit>
+			<trans-unit id="deleteuser.description">
+				<source>Delete Access User</source>
+			</trans-unit>
+			<trans-unit id="deletegroup.description">
+				<source>Delete Access Group</source>
+			</trans-unit>
+			<trans-unit id="createuser.description">
+				<source>Create Access User</source>
+			</trans-unit>
+			<trans-unit id="creategroup.description">
+				<source>Create Access Group</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

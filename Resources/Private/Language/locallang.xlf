@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2017-05-05T09:00:04Z" product-name="accessmanager">
+		<header/>
+		<body>
+			<trans-unit id="tx_accessmanager_domain_model_policy">
+				<source>Policy</source>
+			</trans-unit>
+			<trans-unit id="tx_accessmanager_domain_model_policy.domain_model_object">
+				<source>Domain Model Object</source>
+			</trans-unit>
+			<trans-unit id="tx_accessmanager_domain_model_policy.alias">
+				<source>Alias</source>
+			</trans-unit>
+			<trans-unit id="tx_accessmanager_domain_model_policy.permissions">
+				<source>Permissions</source>
+			</trans-unit>
+			<trans-unit id="tx_accessmanager_domain_model_policy.readuser">
+				<source>Allow Read User</source>
+			</trans-unit>
+			<trans-unit id="tx_accessmanager_domain_model_policy.readgroup">
+				<source>Allow Read Group</source>
+			</trans-unit>
+			<trans-unit id="tx_accessmanager_domain_model_policy.writeuser">
+				<source>Allow Write User</source>
+			</trans-unit>
+			<trans-unit id="tx_accessmanager_domain_model_policy.writegroup">
+				<source>Allow Write Group</source>
+			</trans-unit>
+			<trans-unit id="tx_accessmanager_domain_model_policy.deleteuser">
+				<source>Allow Delete User</source>
+			</trans-unit>
+			<trans-unit id="tx_accessmanager_domain_model_policy.deletegroup">
+				<source>Allow Delete Group</source>
+			</trans-unit>
+			<trans-unit id="tx_accessmanager_domain_model_policy.createuser">
+				<source>Allow Create User</source>
+			</trans-unit>
+			<trans-unit id="tx_accessmanager_domain_model_policy.creategroup">
+				<source>Allow Create Group</source>
+			</trans-unit>
+			<trans-unit id="tx_accessmanager_domain_model_policy.access_violation">
+				<source>The permissions of your user account are not sufficient to complete your request.</source>
+			</trans-unit>
+			<trans-unit id="tx_accessmanager_domain_model_policy.edit">
+				<source>Edit</source>
+			</trans-unit>
+			<trans-unit id="tx_accessmanager_domain_model_policy.show">
+				<source>Show</source>
+			</trans-unit>
+			<trans-unit id="tx_accessmanager_domain_model_policy.delete">
+				<source>Delete</source>
+			</trans-unit>
+			<trans-unit id="tx_accessmanager_domain_model_policy.new">
+				<source>New</source>
+			</trans-unit>
+			<trans-unit id="tx_accessmanager_domain_model_policy.add">
+				<source>Add</source>
+			</trans-unit>
+			<trans-unit id="tx_accessmanager_domain_model_policy.remove">
+				<source>Remove</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2017-05-02T23:10:36Z" product-name="accessmanager">
+		<header/>
+		<body>
+			<trans-unit id="tx_accessmanager_domain_model_policy">
+				<source>Policy</source>
+				<target>Berechtigungen</target>
+			</trans-unit>
+			<trans-unit id="tx_accessmanager_domain_model_policy.domain_model_object">
+				<source>Domain Model Object</source>
+				<target>Domänen Modell Objekt</target>
+			</trans-unit>
+			<trans-unit id="tx_accessmanager_domain_model_policy.permissions">
+				<source>Permissions</source>
+				<target>Berechtigungen</target>
+			</trans-unit>
+			<trans-unit id="tx_accessmanager_domain_model_policy.readuser">
+				<source>Allow Read User</source>
+				<target>Lesen erlaubt für Benutzer</target>
+			</trans-unit>
+			<trans-unit id="tx_accessmanager_domain_model_policy.readgroup">
+				<source>Allow Read Group</source>
+				<target>Lesen erlaubt für Gruppe</target>
+			</trans-unit>
+			<trans-unit id="tx_accessmanager_domain_model_policy.writeuser">
+				<source>Allow Write User</source>
+				<target>Schreiben erlaubt für Benutzer</target>
+			</trans-unit>
+			<trans-unit id="tx_accessmanager_domain_model_policy.writegroup">
+				<source>Allow Write Group</source>
+				<target>Schreiben erlaubt für Gruppe</target>
+			</trans-unit>
+			<trans-unit id="tx_accessmanager_domain_model_policy.deleteuser">
+				<source>Allow Delete User</source>
+				<target>Löschen erlaubt für Benutzer</target>
+			</trans-unit>
+			<trans-unit id="tx_accessmanager_domain_model_policy.deletegroup">
+				<source>Allow Delete Group</source>
+				<target>Löschen erlaubt für Gruppe</target>
+			</trans-unit>
+			<trans-unit id="tx_accessmanager_domain_model_policy.createuser">
+				<source>Allow Create User</source>
+				<target>Anlegen erlaubt für Benutzer</target>
+			</trans-unit>
+			<trans-unit id="tx_accessmanager_domain_model_policy.creategroup">
+				<source>Allow Create Group</source>
+				<target>Anlegen erlaubt für Gruppe</target>
+			</trans-unit>
+			<trans-unit id="tx_accessmanager_domain_model_policy.access_violation">
+				<source>The permissions of your user account are not sufficient to complete your request.</source>
+				<target>Ihre Benutzerberechtigungen sind für diesen Vorgang nicht ausreichend.</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
